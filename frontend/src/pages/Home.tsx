@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '../components/ui/button'
 import grilHeadphone from "../assets/girl-headphone.jpg"
 import LogoText from '../components/LogoText'
 import { CiSearch } from "react-icons/ci";
@@ -10,7 +9,7 @@ const Home = () => {
         <div className="bg-gray-900 min-h-screen text-white">
   {/* Navbar */}
   <header className="absolute top-0 left-0 w-full z-20 flex items-center justify-between px-10 py-6">
-    <div className="text-2xl font-bold text-pink-500">Melodix</div>
+    <LogoText/>
 
     <nav className="flex items-center space-x-8">
       {/* Search box */}
@@ -66,9 +65,6 @@ const Home = () => {
           </button>
         </div>
       </div>
-
-      {/* Right Image (optional, if you don’t want bg only) */}
-      {/* <img src={girlHeadphone} alt="Girl with headphones" className="max-w-md rounded-lg shadow-lg" /> */}
     </div>
   </section>
 </div>
