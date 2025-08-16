@@ -11,7 +11,7 @@ const Section = () => {
         <span className="text-pink-500"> Top</span>
       </h1>
 
-      <div className="card-section ml-3 overflow-x-scroll" style={{::webkit-scroll:display-none}}>
+      <div className="card-section ml-3 overflow-x-scroll" >
         <div className="flex gap-4 py-4">
           <Cards />
           <Cards />
