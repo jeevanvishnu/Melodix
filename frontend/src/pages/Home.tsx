@@ -25,15 +25,13 @@ const Home = () => {
       {/* Nav links */}
       <a href="#" className="hover:text-pink-500">About Us</a>
       <a href="#" className="hover:text-pink-500">Contact</a>
-      <a href="#" className="hover:text-pink-500">Premium</a>
+      <a href="#" className="hover:text-pink-500">Wish</a>
 
       {/* Buttons */}
       <button className="px-4 py-2 border border-pink-500 rounded hover:bg-pink-500 hover:text-white">
         Login
       </button>
-      <button className="px-4 py-2 bg-pink-600 rounded hover:bg-pink-700">
-        Sign Up
-      </button>
+      
     </nav>
   </header>
 
@@ -68,6 +66,7 @@ const Home = () => {
     </div>
   </section>
 </div>
+    <Section/>
     <Section/>
     </div>
   )
