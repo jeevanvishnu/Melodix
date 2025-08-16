@@ -1,5 +1,5 @@
 import Cards from "./Cards";
-
+import './Section.css'
 const Section = () => {
   return (
     <div className="w-full  bg-gray-900 pt-5">
@@ -11,8 +11,17 @@ const Section = () => {
         <span className="text-pink-500"> Top</span>
       </h1>
 
-      <div className="ml-3 overflow-x-auto  snap">
+      <div className="card-section ml-3 overflow-x-scroll" style={{::webkit-scroll:display-none}}>
         <div className="flex gap-4 py-4">
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
           <Cards />
           <Cards />
           <Cards />
